@@ -65785,6 +65785,8 @@ module.exports = function(module) {
  * building robust, powerful web applications using React + Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./fontawesome */ "./resources/js/fontawesome.js");
 /**
  * Next, we will create a fresh React component instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -65878,6 +65880,18 @@ function Example() {
 if (document.getElementById('example')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/fontawesome.js":
+/*!*************************************!*\
+  !*** ./resources/js/fontawesome.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// import '~@fortawesome/fontawesome-free/scss/solid';
+fontawesome.library.add([faCaretUp, faCaretDown, faCheck, faStar]);
 
 /***/ }),
 
