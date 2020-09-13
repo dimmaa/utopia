@@ -54,7 +54,7 @@
                                         </div>
                                     </div>
                                     <p class="lead">
-                                        Askes by
+                                        Asked by
                                         <a href="{{ $question->user->url }}">{{ $question->user->name }}</a>
                                         <small class="text-muted">
                                             {{ $question->created_date }}
